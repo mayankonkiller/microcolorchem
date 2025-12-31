@@ -159,12 +159,20 @@
 }
 
 .navbar-light .navbar-brand img {
-    max-height: 50px;
+    max-height: 70px;
     transition: .5s;
 }
 
 .sticky-top.navbar-light .navbar-brand img {
-    max-height: 45px;
+    max-height: 70px;
+}
+.company-logo{
+    display: flex;
+    align-items: center;
+}
+.header-company-name{
+    color: black !important;
+    margin-left: 20px;
 }
 
 .navbar .dropdown-toggle::after {
@@ -228,7 +236,7 @@
     }
 
     .navbar-light .navbar-brand img {
-        max-height: 45px;
+        max-height: 80px;
     }
 }
 
